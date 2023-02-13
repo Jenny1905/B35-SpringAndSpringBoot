@@ -2,7 +2,7 @@ package org.tnsif.springioc;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
+//Driver class
 public class MobileExecutor {
 
 	public static void main(String[] args) {
