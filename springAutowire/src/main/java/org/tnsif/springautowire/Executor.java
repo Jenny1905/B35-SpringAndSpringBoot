@@ -1,8 +1,9 @@
+//Program to demonstrate on autowiring
+//driver class
 package org.tnsif.springautowire;
-
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-//driver class
+
 public class Executor {
 
 	public static void main(String[] args) {

@@ -25,7 +25,11 @@ public class Passport {
 	}
 
 	
-	
+	//default constructor
+	public Passport() {
+		System.out.println("Inside default-Passport constructor");
+	}
+
 	public void documentation()
 	{
 		System.out.println("Address and Identity proof");

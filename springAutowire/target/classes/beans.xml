@@ -10,9 +10,9 @@
 <!---beans-->
 
 <bean id="heart" class="org.tnsif.springautowire.Heart"/>
-<!--bean id="human" class="org.tnsif.springautowire.Human" autowire="byName"></bean-->
+<bean id="human" class="org.tnsif.springautowire.Human" autowire="byName"></bean>
 <!--bean id="human" class="org.tnsif.springautowire.Human" autowire="byType"></bean-->
-<bean id="human" class="org.tnsif.springautowire.Human" autowire="constructor"></bean>
+<!--bean id="human" class="org.tnsif.springautowire.Human" autowire="constructor"></bean-->
 
 
 </beans>

@@ -1,5 +1,5 @@
 package org.tnsif.springautowire;
-
+//Program to demonstrate on autowiring
 public class Human {
 	
 	//DI in terms of objects
@@ -11,11 +11,11 @@ public class Human {
 	}
 	
 	//DI using constructors
-	public Human(Heart heart) {
+	/*public Human(Heart heart) {
 		super();
 		this.heart = heart;
 		System.out.println("Autowire using constructor");
-	}
+	}*/
 	
 	public void startPumping()
 	{
