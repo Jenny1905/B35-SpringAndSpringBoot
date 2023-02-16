@@ -6,11 +6,12 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
 
 <!--comment-->
-<!--bean id="airtel" class="org.tnsif.springioc.Airtel"></bean-->
-<!--bean id="jio" class="org.tnsif.springioc.Jio"></bean-->
+<bean id="book" class="org.tnsif.beanlifecycle.Book"
+		init-method="init" destroy-method="destroy">
+	<property name="name" value="C++"/>
+	<property name="author" value="Vikas Lichade"/>
+</bean>
 
-<!---beans-->
-<bean id="sim" class="org.tnsif.springioc.Airtel"></bean>
+
 
 </beans>
-

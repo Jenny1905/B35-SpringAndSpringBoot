@@ -6,8 +6,8 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
 
 <!--comment-->
-<!---bean id="airtel" class="org.tnsif.springioc.Airtel"></bean>
-<bean id="jio" class="org.tnsif.springioc.Jio"></bean-->
+<!--bean id="airtel" class="org.tnsif.springioc.Airtel"></bean-->
+<!--bean id="jio" class="org.tnsif.springioc.Jio"></bean-->
 
 <!---beans-->
 <bean id="sim" class="org.tnsif.springioc.Airtel"></bean>
